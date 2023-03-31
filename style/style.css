@@ -1,0 +1,197 @@
+body {
+  background-color: #0f0905;
+  color: #f8f4f4;
+}
+
+header {
+  position: relative;
+  height: 500px;
+  background-image: url("your-image-url");
+  background-size: cover;
+  background-position: center;
+  z-index: 3;
+
+
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ffdead;
+}
+
+section {
+  background-color: #000;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2, h3 {
+  color: #f08080;
+  text-align: center;
+}
+
+button {
+  background-color: #34fd0b;
+  color: #0f0404;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+
+}
+
+button:hover {
+  background-color: #ffdead;
+}
+
+.feature {
+  background-color: #020003;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.feature h3 {
+  color: #f08080;
+}
+
+.feature img {
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 50%;
+}
+
+.about {
+  background-color: #010103;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.about h2 {
+  color: #160b0b;
+}
+
+.about p {
+  line-height: 1.5;
+}
+
+.about a {
+  color: #0c090c;
+  text-decoration: none;
+}
+
+.about a:hover {
+  color: #ffdead;
+}
+
+header .container {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  z-index: 1;
+}
+
+header img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+header h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+}
+
+header h2 {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Gilda Display", serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Gilda Display", serif;
+}
+
+h2 {
+  font-family: "Gilda Display", serif;
+  animation: breathe 3s ease-in-out infinite;
+}
+
+@keyframes breathe {
+  0% {
+    font-size: 1rem;
+  }
+  50% {
+    font-size: 1.5rem;
+  }
+  100% {
+    font-size: 1.7rem;
+  }
+}
+
+.cover-image {
+  animation: drift 10s ease-in-out infinite;
+}
+
+@keyframes drift {
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+  50% {
+    transform: translateX(20px) translateY(10px);
+  }
+  100% {
+    transform: translateX(0) translateY(0);
+  }
+}
+
+.team-member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.social-links a i.bi-linkedin {
+  color: red;
+}
+
+.social-links a i.bi-github {
+  color: red;
+}
+
+.feature-section {
+  position: relative;
+  z-index: 1;
+  /* other styles */
+}
+
+
+
+
